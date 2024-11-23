@@ -1,0 +1,30 @@
+2024-11-21 22:43:47,247 INFO ipython === bench console session ===
+2024-11-21 22:43:47,252 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 22:43:47,257 INFO ipython === session end ===
+2024-11-21 22:56:44,726 INFO ipython === bench console session ===
+2024-11-21 22:56:44,731 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 22:56:44,736 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 22:56:44,740 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 22:56:44,747 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 22:56:44,750 INFO ipython === session end ===
+2024-11-21 23:00:49,274 INFO ipython === bench console session ===
+2024-11-21 23:00:49,278 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 23:00:49,281 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 23:00:49,284 INFO ipython === session end ===
+2024-11-21 23:05:23,569 INFO ipython === bench console session ===
+2024-11-21 23:05:23,574 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 23:05:23,579 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 23:05:23,584 INFO ipython === session end ===
+2024-11-21 23:07:52,789 INFO ipython === bench console session ===
+2024-11-21 23:07:52,794 INFO ipython from conference_management.conference_management.scheduler import daily_task_scheduler
+daily_task_scheduler()
+2024-11-21 23:07:52,799 INFO ipython === session end ===

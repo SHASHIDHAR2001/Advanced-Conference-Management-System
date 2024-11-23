@@ -1,0 +1,12 @@
+_HiStOrY_V2_
+SELECT\040name,\040session_name,\040docstatus,\040modified
+FROM\040`tabSession`
+WHERE\040session_name\040LIKE\040'%lang%';
+SELECT\040name,\040session_name,\040docstatus,\040modified\040FROM\040`tabSession`\040WHERE\040session_name\040LIKE\040'%lang%';
+DELETE\040FROM\040`tabSession`
+WHERE\040session_name\040=\040'lang';
+DELETE\040FROM\040`tabSession`\040WHERE\040session_name\040=\040'lang';
+SELECT\040name,\040session_name
+FROM\040`tabSession`
+WHERE\040session_name\040=\040'lang';
+SELECT\040name,\040session_name\040FROM\040`tabSession`\040WHERE\040session_name\040=\040'lang';

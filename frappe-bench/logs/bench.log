@@ -1,0 +1,140 @@
+2024-11-21 00:09:20,148 DEBUG cd frappe-bench && python3 -m venv env
+2024-11-21 00:11:29,491 DEBUG cd frappe-bench && /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-11-21 00:16:56,160 DEBUG cd frappe-bench && /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-11-21 00:17:17,800 LOG Getting frappe
+2024-11-21 00:17:17,801 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-11-21 00:18:38,926 LOG Installing frappe
+2024-11-21 00:18:38,941 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/frappe 
+2024-11-21 00:36:35,332 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/frappe && yarn install --check-files
+2024-11-21 09:47:11,290 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe:
+2024-11-21 09:47:11,526 WARNING cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-11-21 09:47:11,528 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-11-21 09:47:11,532 DEBUG cd frappe-bench && bench build
+2024-11-21 09:47:11,873 INFO /home/shashi/.local/bin/bench build
+2024-11-21 09:52:09,808 LOG setting up backups
+2024-11-21 09:52:09,878 LOG backups were set up
+2024-11-21 09:52:09,879 INFO Bench frappe-bench initialized
+2024-11-21 09:53:04,252 INFO /home/shashi/.local/bin/bench new-app conference_management
+2024-11-21 09:53:04,297 LOG creating new app conference_management
+2024-11-21 09:54:12,564 LOG Installing conference_management
+2024-11-21 09:54:12,814 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/conference_management 
+2024-11-21 09:54:46,517 INFO /home/shashi/.local/bin/bench start
+2024-11-21 09:55:32,431 DEBUG bench build --app conference_management
+2024-11-21 09:55:32,714 INFO /home/shashi/.local/bin/bench build --app conference_management
+2024-11-21 09:57:04,829 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe:
+2024-11-21 09:57:05,043 WARNING cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-11-21 09:57:05,044 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-11-21 09:59:49,709 INFO /home/shashi/.local/bin/bench start
+2024-11-21 10:03:17,554 INFO /home/shashi/.local/bin/bench start
+2024-11-21 10:03:18,437 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 10:03:18,438 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 10:03:18,440 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 10:03:18,465 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 10:06:33,527 INFO /home/shashi/.local/bin/bench setup supervisor
+2024-11-21 10:06:33,803 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-11-21 10:06:33,804 LOG Updated supervisord.conf: 'chown' changed from '' to 'shashi:shashi'
+2024-11-21 10:10:40,272 INFO /home/shashi/.local/bin/bench new-site conference.local
+2024-11-21 10:14:36,085 INFO /home/shashi/.local/bin/bench --site conference.local install-app conference_management
+2024-11-21 10:15:26,781 INFO /home/shashi/.local/bin/bench start
+2024-11-21 10:15:27,268 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 10:15:27,268 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 10:15:27,275 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 10:15:27,276 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 10:15:49,964 INFO /home/shashi/.local/bin/bench set-config -g developer_mode true
+2024-11-21 10:17:06,143 INFO /home/shashi/.local/bin/bench --site conference.local make-doctype Conference --module Conference Management
+2024-11-21 10:18:11,341 INFO /home/shashi/.local/bin/bench start
+2024-11-21 10:18:11,784 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 10:18:11,784 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 10:18:11,789 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 10:18:11,820 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 10:20:20,713 INFO /home/shashi/.local/bin/bench start
+2024-11-21 10:20:21,071 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 10:20:21,074 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 10:20:21,082 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 10:20:21,084 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 13:13:56,189 INFO /home/shashi/.local/bin/bench start
+2024-11-21 13:13:56,884 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 13:13:56,884 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 13:13:56,884 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 13:13:56,928 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 18:46:18,087 INFO /home/shashi/.local/bin/bench start
+2024-11-21 18:46:19,062 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 18:46:19,071 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 18:46:19,074 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 18:46:19,094 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 19:10:25,394 INFO /home/shashi/.local/bin/bench start
+2024-11-21 19:10:26,422 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 19:10:26,423 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 19:10:26,423 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 19:10:26,493 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 22:30:35,574 INFO /home/shashi/.local/bin/bench doctor
+2024-11-21 22:33:39,713 INFO /home/shashi/.local/bin/bench execute conference_management.conference_management.scheduler.daily_task_scheduler
+2024-11-21 22:34:10,603 INFO /home/shashi/.local/bin/bench doctor
+2024-11-21 22:34:40,919 INFO /home/shashi/.local/bin/bench enable-scheduler
+2024-11-21 22:35:29,961 INFO /home/shashi/.local/bin/bench --site conference.local execute conference_management.conference_management.scheduler.daily_task_scheduler
+2024-11-21 22:37:07,635 INFO /home/shashi/.local/bin/bench clear-cache
+2024-11-21 22:37:31,609 INFO /home/shashi/.local/bin/bench --site conference.local scheduler enabl
+2024-11-21 22:37:42,675 INFO /home/shashi/.local/bin/bench --site conference.local scheduler enable
+2024-11-21 22:38:14,259 INFO /home/shashi/.local/bin/bench --site conference.local execute conference_management.conference_management.scheduler.daily_task_scheduler
+2024-11-21 22:38:58,864 INFO /home/shashi/.local/bin/bench --site conference.local scheduler restart
+2024-11-21 22:39:19,008 INFO /home/shashi/.local/bin/bench --site conference.local scheduler enable
+2024-11-21 22:40:03,015 INFO /home/shashi/.local/bin/bench --site conference.local list-apps
+2024-11-21 22:40:49,014 INFO /home/shashi/.local/bin/bench --site conference.local console
+2024-11-21 22:43:51,214 INFO /home/shashi/.local/bin/bench clear-cache
+2024-11-21 22:44:35,315 INFO /home/shashi/.local/bin/bench --site conference.local clear-cache
+2024-11-21 22:45:12,150 INFO /home/shashi/.local/bin/bench --site conference.local console
+2024-11-21 22:54:57,287 INFO /home/shashi/.local/bin/bench restart
+2024-11-21 22:55:00,765 DEBUG cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe:
+2024-11-21 22:55:00,963 WARNING cd /mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-11-21 22:55:00,965 WARNING /home/shashi/.local/bin/bench restart executed with exit code 1
+2024-11-21 22:55:09,373 INFO /home/shashi/.local/bin/bench start
+2024-11-21 22:55:09,899 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-21 22:55:09,916 INFO /home/shashi/.local/bin/bench watch
+2024-11-21 22:55:09,916 INFO /home/shashi/.local/bin/bench schedule
+2024-11-21 22:55:09,948 INFO /home/shashi/.local/bin/bench worker
+2024-11-21 22:57:35,112 INFO /home/shashi/.local/bin/bench --site conference.local console
+2024-11-21 23:02:14,834 INFO /home/shashi/.local/bin/bench --site conference.local console
+2024-11-21 23:05:25,567 INFO /home/shashi/.local/bin/bench --site conference.local console
+2024-11-22 03:28:01,679 INFO /home/shashi/.local/bin/bench start
+2024-11-22 03:28:02,728 INFO /home/shashi/.local/bin/bench watch
+2024-11-22 03:28:02,741 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-22 03:28:02,758 INFO /home/shashi/.local/bin/bench schedule
+2024-11-22 03:28:02,768 INFO /home/shashi/.local/bin/bench worker
+2024-11-22 09:43:08,746 INFO /home/shashi/.local/bin/bench start
+2024-11-22 09:43:09,261 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-22 09:43:09,261 INFO /home/shashi/.local/bin/bench schedule
+2024-11-22 09:43:09,297 INFO /home/shashi/.local/bin/bench worker
+2024-11-22 09:43:09,313 INFO /home/shashi/.local/bin/bench watch
+2024-11-22 13:18:28,885 INFO /home/shashi/.local/bin/bench start
+2024-11-22 13:18:29,578 INFO /home/shashi/.local/bin/bench schedule
+2024-11-22 13:18:29,578 INFO /home/shashi/.local/bin/bench watch
+2024-11-22 13:18:29,591 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-22 13:18:29,606 INFO /home/shashi/.local/bin/bench worker
+2024-11-22 15:07:19,185 INFO /home/shashi/.local/bin/bench start
+2024-11-22 15:07:20,224 INFO /home/shashi/.local/bin/bench schedule
+2024-11-22 15:07:20,227 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-22 15:07:20,227 INFO /home/shashi/.local/bin/bench watch
+2024-11-22 15:07:20,256 INFO /home/shashi/.local/bin/bench worker
+2024-11-22 16:42:00,221 INFO /home/shashi/.local/bin/bench start
+2024-11-22 16:42:00,894 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-22 16:42:00,894 INFO /home/shashi/.local/bin/bench worker
+2024-11-22 16:42:00,895 INFO /home/shashi/.local/bin/bench schedule
+2024-11-22 16:42:00,931 INFO /home/shashi/.local/bin/bench watch
+2024-11-23 09:02:18,938 INFO /home/shashi/.local/bin/bench start
+2024-11-23 09:02:19,392 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-23 09:02:19,396 INFO /home/shashi/.local/bin/bench schedule
+2024-11-23 09:02:19,398 INFO /home/shashi/.local/bin/bench watch
+2024-11-23 09:02:19,410 INFO /home/shashi/.local/bin/bench worker
+2024-11-23 10:09:40,360 INFO /home/shashi/.local/bin/bench start
+2024-11-23 10:09:41,004 INFO /home/shashi/.local/bin/bench watch
+2024-11-23 10:09:41,004 INFO /home/shashi/.local/bin/bench schedule
+2024-11-23 10:09:41,016 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-23 10:09:41,028 INFO /home/shashi/.local/bin/bench worker
+2024-11-23 11:17:35,048 INFO /home/shashi/.local/bin/bench start
+2024-11-23 11:17:35,924 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-23 11:17:35,932 INFO /home/shashi/.local/bin/bench schedule
+2024-11-23 11:17:35,961 INFO /home/shashi/.local/bin/bench worker
+2024-11-23 11:17:35,976 INFO /home/shashi/.local/bin/bench watch
+2024-11-23 13:19:27,405 INFO /home/shashi/.local/bin/bench --site conference.local mariadb
+2024-11-23 21:20:47,023 INFO /home/shashi/.local/bin/bench set-config -g server_script_enabled 1
+2024-11-23 21:21:22,844 INFO /home/shashi/.local/bin/bench --site conference.local set-config server_script_enabled true
