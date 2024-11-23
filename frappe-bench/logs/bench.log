@@ -138,3 +138,8 @@
 2024-11-23 13:19:27,405 INFO /home/shashi/.local/bin/bench --site conference.local mariadb
 2024-11-23 21:20:47,023 INFO /home/shashi/.local/bin/bench set-config -g server_script_enabled 1
 2024-11-23 21:21:22,844 INFO /home/shashi/.local/bin/bench --site conference.local set-config server_script_enabled true
+2024-11-23 23:25:31,543 INFO /home/shashi/.local/bin/bench start
+2024-11-23 23:25:32,830 INFO /home/shashi/.local/bin/bench schedule
+2024-11-23 23:25:32,850 INFO /home/shashi/.local/bin/bench watch
+2024-11-23 23:25:32,851 INFO /home/shashi/.local/bin/bench serve --port 8000
+2024-11-23 23:25:32,871 INFO /home/shashi/.local/bin/bench worker
