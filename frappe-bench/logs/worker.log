@@ -13928,3 +13928,182 @@ Error while reading from 127.0.0.1:11000 : (104, 'Connection reset by peer')
 2024-11-24 00:16:24,117 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::4lrne1c4sf)
 2024-11-24 00:16:24,118 Result is kept for 600 seconds
 2024-11-24 00:16:24,138 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.doctype.event.event.send_event_digest', 'schedule..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::ju5d8gu4t1)
+2024-11-24 00:16:50,090 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::ju5d8gu4t1)
+2024-11-24 00:16:50,091 Result is kept for 600 seconds
+2024-11-24 00:16:50,109 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::tfbk1hsbhs)
+2024-11-24 00:17:28,363 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::tfbk1hsbhs)
+2024-11-24 00:17:28,363 Result is kept for 600 seconds
+2024-11-24 00:17:28,384 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_daily_updates', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::879aor7u84)
+2024-11-24 00:17:52,319 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::879aor7u84)
+2024-11-24 00:17:52,321 Result is kept for 600 seconds
+2024-11-24 00:17:52,349 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:18:15,042 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:18:15,043 Result is kept for 600 seconds
+2024-11-24 00:18:15,066 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:18:36,810 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:18:36,811 Result is kept for 600 seconds
+2024-11-24 00:18:36,830 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jao8q0eq3t'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:19:01,353 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:19:01,354 Result is kept for 600 seconds
+2024-11-24 00:19:01,375 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:short
+2024-11-24 00:19:01,378 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default
+2024-11-24 00:19:01,382 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long
+2024-11-24 00:19:01,386 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'c2req2on7c'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:19:22,824 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:19:22,825 Result is kept for 600 seconds
+2024-11-24 00:19:22,848 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:19:43,782 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:19:43,783 Result is kept for 600 seconds
+2024-11-24 00:19:43,797 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', kwargs={'data': []}, method='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', site='conference.local', user='Administrator') (conference.local::29dd37dc-2554-453b-9ab6-da78f699edc7)
+2024-11-24 00:19:55,430 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::29dd37dc-2554-453b-9ab6-da78f699edc7)
+2024-11-24 00:19:55,431 Result is kept for 600 seconds
+2024-11-24 00:19:55,443 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::941evcbcec)
+2024-11-24 00:20:17,033 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::941evcbcec)
+2024-11-24 00:20:17,034 Result is kept for 600 seconds
+2024-11-24 00:20:17,056 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'c2req2on7c'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:20:40,187 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:20:40,188 Result is kept for 600 seconds
+2024-11-24 00:20:40,224 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::apv5ha4a3q)
+2024-11-24 00:21:29,546 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::apv5ha4a3q)
+2024-11-24 00:21:29,548 Result is kept for 600 seconds
+2024-11-24 00:21:29,580 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jao8q0eq3t'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:21:56,420 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:21:56,421 Result is kept for 600 seconds
+2024-11-24 00:21:56,442 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::nvlclsj4v7)
+2024-11-24 00:22:18,917 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::nvlclsj4v7)
+2024-11-24 00:22:18,918 Result is kept for 600 seconds
+2024-11-24 00:22:18,938 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::h7u9bksjgi)
+2024-11-24 00:22:40,588 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::h7u9bksjgi)
+2024-11-24 00:22:40,589 Result is kept for 600 seconds
+2024-11-24 00:22:40,612 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::h7u9bksjgi)
+2024-11-24 00:23:21,289 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::h7u9bksjgi)
+2024-11-24 00:23:21,291 Result is kept for 600 seconds
+2024-11-24 00:23:21,333 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:23:58,270 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:23:58,271 Result is kept for 600 seconds
+2024-11-24 00:23:58,291 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:24:20,410 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:24:20,411 Result is kept for 600 seconds
+2024-11-24 00:24:20,427 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_weekly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::o6ms6bmobq)
+2024-11-24 00:24:43,541 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::o6ms6bmobq)
+2024-11-24 00:24:43,542 Result is kept for 600 seconds
+2024-11-24 00:24:43,568 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::mkhh3p8m4u)
+2024-11-24 00:25:15,317 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::mkhh3p8m4u)
+2024-11-24 00:25:15,318 Result is kept for 600 seconds
+2024-11-24 00:25:15,336 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.auto_email_report.auto_email_report.send..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::68n8crv5nf)
+2024-11-24 00:25:44,719 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::68n8crv5nf)
+2024-11-24 00:25:44,720 Result is kept for 600 seconds
+2024-11-24 00:25:44,735 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::f1uglou8j6)
+2024-11-24 00:26:19,239 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::f1uglou8j6)
+2024-11-24 00:26:19,240 Result is kept for 600 seconds
+2024-11-24 00:26:19,272 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:26:42,768 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:26:42,775 Result is kept for 600 seconds
+2024-11-24 00:26:42,811 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': '2s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::2snm817pj0)
+2024-11-24 00:27:25,043 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::2snm817pj0)
+2024-11-24 00:27:25,044 Result is kept for 600 seconds
+2024-11-24 00:27:25,062 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'c2req2on7c'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:27:46,464 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::c2req2on7c)
+2024-11-24 00:27:46,465 Result is kept for 600 seconds
+2024-11-24 00:27:46,482 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'jao8q0eq3t'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:28:17,121 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::jao8q0eq3t)
+2024-11-24 00:28:17,123 Result is kept for 600 seconds
+2024-11-24 00:28:17,166 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::a8455tgff2)
+2024-11-24 00:28:47,556 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::a8455tgff2)
+2024-11-24 00:28:47,557 Result is kept for 600 seconds
+2024-11-24 00:28:47,580 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.social.doctype.energy_point_log.energy_point_log.send_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::8gq96pvshl)
+2024-11-24 00:29:11,422 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::8gq96pvshl)
+2024-11-24 00:29:11,423 Result is kept for 600 seconds
+2024-11-24 00:29:11,440 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:short
+2024-11-24 00:29:11,444 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default
+2024-11-24 00:29:11,447 Cleaning registries for queue: mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long
+2024-11-24 00:29:11,451 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::n1jqgdke96)
+2024-11-24 00:29:39,117 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::n1jqgdke96)
+2024-11-24 00:29:39,118 Result is kept for 600 seconds
+2024-11-24 00:29:39,138 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_drive.google_drive.weekly_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::rco359fb38)
+2024-11-24 00:30:08,405 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:long: Job OK (conference.local::scheduled_job::rco359fb38)
+2024-11-24 00:30:08,406 Result is kept for 600 seconds
+2024-11-24 00:30:08,425 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': '4lrn..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::4lrne1c4sf)
+2024-11-24 00:30:30,788 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::4lrne1c4sf)
+2024-11-24 00:30:30,789 Result is kept for 600 seconds
+2024-11-24 00:30:30,809 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::tfbk1hsbhs)
+2024-11-24 00:30:59,638 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::tfbk1hsbhs)
+2024-11-24 00:30:59,639 Result is kept for 600 seconds
+2024-11-24 00:30:59,655 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:31:21,056 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::bt5324ji2c)
+2024-11-24 00:31:21,057 Result is kept for 600 seconds
+2024-11-24 00:31:21,075 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::apv5ha4a3q)
+2024-11-24 00:31:48,000 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: Job OK (conference.local::scheduled_job::apv5ha4a3q)
+2024-11-24 00:31:48,001 Result is kept for 600 seconds
+2024-11-24 00:31:48,021 mnt-d-Shashidhar.ts-Self-Development-DSA-Stanch-Kumar-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='conference.local', user='Administrator') (conference.local::scheduled_job::6q9r72797k)
+2024-11-24 00:32:02,025 Worker 1756bbb7692d4b52a49a589c2b799d81 [PID 2836]: warm shut down requested
+
+:: Error 111 connecting to 127.0.0.1:11000. Connection refused. ::
+
+Context:
+ File '/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py', line 283
+
+ 278:                 lambda: self._connect(), lambda error: self.disconnect(error)
+ 279:             )
+ 280:         except socket.timeout:
+ 281:             raise TimeoutError("Timeout connecting to server")
+ 282:         except OSError as e:
+ 283>             raise ConnectionError(self._error_message(e))
+ 284: 
+ 285:         self._sock = sock
+ 286:         try:
+ 287:             if self.redis_connect_func is None:
+ 288:                 # Use the default on_connect function
+
+Full traceback:
+Traceback (most recent call last):
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 277, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 278, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 639, in _connect
+    raise err
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 627, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 47, in invoke
+    return super().invoke(ctx)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 206, in start_worker
+    start_worker(
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 321, in start_worker
+    worker.work(
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/rq/worker.py", line 458, in work
+    self.teardown()
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/rq/worker.py", line 1048, in teardown
+    self.register_death()
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/rq/worker.py", line 834, in register_death
+    p.execute()
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/client.py", line 1497, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 1074, in get_connection
+    connection.connect()
+  File "/mnt/d/Shashidhar.ts/Self-Development/DSA/Stanch-Kumar/frappe-bench/env/lib/python3.11/site-packages/redis/connection.py", line 283, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+Error 111 connecting to 127.0.0.1:11000. Connection refused.
