@@ -638,5 +638,56 @@ Host: conference.local:8000
 ```
 **Functionality:**
 A scheduler is set up to run daily, fetching the recommended sessions for each attendee based on their preferences. The system then sends an email containing the recommended sessions.
+
+---
+## 7. Conference Report
+
+**Screenshot:**
+![image](https://github.com/user-attachments/assets/cf8f02ae-b78e-4969-ba67-ed238606714d)
+
+**Purpose:**
+The Conference Report provides insights into:
+- Total attendees for each conference.
+- Number of sessions conducted per conference.
+
+**Features:**
+- Displays a tabular format of conference name, attendee, registration, and session counts.
+- A bar chart visualization for quick data interpretation.
+
+**How to Use:**
+- Access the report under `Reports > Conference reports` in the Frappe Desk.
+
+---
+
+## 8. Session Analysis Report
+
+**Screenshot:**
+![image](https://github.com/user-attachments/assets/fb88178f-1468-4a26-b65f-e7b2b3b3b779)
+
+**Purpose:**
+The Session Analysis Report provides insights into:
+- Session-wise total registrations and remaining capacity.
+- Revenue generated from each session based on paid registrations.
+
+**Features:**
+- Displays both tabular data and a bar chart for visual representation.
+- Helps conference managers track session popularity and revenue.
+
+---
+## Error Handling and Logging:
+
+**Screenshot:**
+![image](https://github.com/user-attachments/assets/f899ad15-4082-4c76-aabd-d288c26f200d)
+
+### 1. Improved User Experience
+- **Users receive meaningful feedback for every action**, ensuring clarity and transparency.
+
+### 2. System Monitoring
+- **Logs provide a comprehensive view of system activity**, allowing developers to monitor API usage and identify issues.
+
+### 3. Quick Debugging
+- **Detailed logs with timestamps help trace issues quickly** during failures or inconsistencies.
 ```
+
+
 
