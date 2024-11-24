@@ -691,6 +691,7 @@ The Session Analysis Report provides insights into:
 ## Some more screenshots of validation and records
 ![image](https://github.com/user-attachments/assets/104deffe-83cd-4124-b1a5-26f0f0930b63)
 ![image](https://github.com/user-attachments/assets/24ecb6d0-e149-4949-9bb0-3052d064230d)
+![image](https://github.com/user-attachments/assets/c94386e4-ee98-4448-b4b6-af6ea9c361cb)
 ![image](https://github.com/user-attachments/assets/e145b5c5-30b7-4c3f-8ce7-73b3dc700055)
 ![image](https://github.com/user-attachments/assets/dfea9813-84db-4dcf-9606-c6f462337559)
 ![image](https://github.com/user-attachments/assets/1a4f395f-491e-4fba-9ed7-3d045d368bc3)
