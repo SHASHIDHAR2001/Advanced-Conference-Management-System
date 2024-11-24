@@ -127,11 +127,10 @@ The Frappe app is built around several core DocTypes, each designed to manage di
 - **Business Logic**:
   - Logs API calls process, ensuring that system interactions are tracked for debugging and audit purposes.
 ```
-
-```markdown
+```
 ## Conference Management API Documentation
 
-### 1. Fetch Upcoming Conferences
+### 1. Fetch Upcoming Conferences Api
 ![image](https://github.com/user-attachments/assets/5f376082-225e-4b66-84be-6e13bae2829a)
 
 **API Endpoint:**
@@ -489,7 +488,7 @@ Host: conference.local:8000
 
 ---
 
-### 5. Get Recommendations for an Attendee
+### 5. Get Recommendations for an Attendee Api
 ![image](https://github.com/user-attachments/assets/de550d1a-ab47-4384-9465-ed8c93ec0982)
 
 **Postman API:**
